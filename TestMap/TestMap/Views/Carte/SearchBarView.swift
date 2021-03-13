@@ -24,9 +24,6 @@ struct SearchBarView: View {
         .padding(.horizontal, 20)
         .frame(height: 75)
         .opacity(0.8)
-        //infinity -->max espace de l'ecran
-        //maxHeight
-        //.frame(maxWidth: .infinity)
     }
 }
 

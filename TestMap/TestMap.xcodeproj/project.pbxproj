@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1319C36825F2DD5000BB7DE9 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319C36725F2DD5000BB7DE9 /* test.swift */; };
 		1319C39325F2E0FC00BB7DE9 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319C39225F2E0FC00BB7DE9 /* MasterView.swift */; };
 		1319C39B25F2E26B00BB7DE9 /* CarteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319C39A25F2E26B00BB7DE9 /* CarteView.swift */; };
 		1319C39E25F2E27F00BB7DE9 /* RecommandationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319C39D25F2E27F00BB7DE9 /* RecommandationView.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1319C36725F2DD5000BB7DE9 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		1319C39225F2E0FC00BB7DE9 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 		1319C39A25F2E26B00BB7DE9 /* CarteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteView.swift; sourceTree = "<group>"; };
 		1319C39D25F2E27F00BB7DE9 /* RecommandationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandationView.swift; sourceTree = "<group>"; };
@@ -77,8 +75,8 @@
 			children = (
 				1319C39A25F2E26B00BB7DE9 /* CarteView.swift */,
 				1319C3AA25F2E4A800BB7DE9 /* SearchBarView.swift */,
-				1319C3AD25F2E4C500BB7DE9 /* RecorderButton.swift */,
 				1319C3B425F2E4E700BB7DE9 /* FilterButton.swift */,
+				1319C3AD25F2E4C500BB7DE9 /* RecorderButton.swift */,
 			);
 			path = Carte;
 			sourceTree = "<group>";
@@ -136,7 +134,6 @@
 			children = (
 				1319C36A25F2DDE900BB7DE9 /* Views */,
 				13EF3A4E25F13B18009E0C7C /* TestMapApp.swift */,
-				1319C36725F2DD5000BB7DE9 /* test.swift */,
 				13EF3A5225F13B18009E0C7C /* Assets.xcassets */,
 				13EF3A5725F13B18009E0C7C /* Info.plist */,
 				13EF3A5425F13B18009E0C7C /* Preview Content */,
@@ -224,7 +221,6 @@
 				1319C3B525F2E4E700BB7DE9 /* FilterButton.swift in Sources */,
 				1319C39E25F2E27F00BB7DE9 /* RecommandationView.swift in Sources */,
 				1319C3AB25F2E4A800BB7DE9 /* SearchBarView.swift in Sources */,
-				1319C36825F2DD5000BB7DE9 /* test.swift in Sources */,
 				1319C3AE25F2E4C500BB7DE9 /* RecorderButton.swift in Sources */,
 				1319C3A225F2E2FF00BB7DE9 /* ProfilView.swift in Sources */,
 				1319C3A525F2E42E00BB7DE9 /* SignUpView.swift in Sources */,

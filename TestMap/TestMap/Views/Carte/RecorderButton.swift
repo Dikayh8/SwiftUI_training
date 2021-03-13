@@ -8,22 +8,10 @@
 import SwiftUI
 import AVKit
 
-struct RecorderButton: View {
+struct RecorderEffectButton: View {
     
-    var body: some View {
-        ZStack {
-            //ImageMicButton()
-            ImageStopButton()
-        }
-    }
-}
-
-struct ImageStopButton: View {
-    
-    @State var record = false
     @State private var animateBigCircle = false
     @State private var animateSmallCircle = false
-    @State var active = false
     
     var body: some View {
         ZStack {
@@ -37,25 +25,51 @@ struct ImageStopButton: View {
                 .onAppear(){
                     self.animateBigCircle.toggle()
                 }
-//            Circle()
-//                .foregroundColor(Color(red: 0.905, green: 0.91, blue: 0.91))
-//                .frame(width: 150, height: 150)
-//                .scaleEffect(animateSmallCircle ? 0.9 : 1.1)
-//                .animation(Animation.easeInOut(duration: 0.4).repeatForever(autoreverses: false))
-//                .onAppear() {
-//                    self.animateSmallCircle.toggle()
-//                }
-            Button (action: {
-                active.toggle()
-            }, label: {
-                Image(systemName: active ? "stop.circle.fill" : "mic.circle.fill")
-                    .foregroundColor(.red)
-                    .frame(width: 90, height: 90)
-                    .font(.system(size: 80))
-            })
+            Circle()
+                .foregroundColor(Color(red: 0.905, green: 0.91, blue: 0.91))
+                .frame(width: 150, height: 150)
+                .scaleEffect(animateSmallCircle ? 0.9 : 1.1)
+                .animation(Animation.easeInOut(duration: 0.4).repeatForever(autoreverses: false))
+                .onAppear() {
+                    self.animateSmallCircle.toggle()
+                }
         }
     }
 }
+
+struct RecorderButton: View {
+    
+    @State var stopAndMicImage: Image = Image(systemName: "")
+    @State var active: Bool = false
+    
+    func button(imageName: String) -> some View {
+        Button (action: {
+            self.active.toggle()
+            stopAndMicImage = Image(systemName: imageName)
+        }, label: {
+            VStack {
+                Image(systemName: imageName)
+                    .foregroundColor(.red)
+                    .frame(width: 90, height: 90)
+                    .font(.system(size: 80))
+            }
+        })
+    }
+    
+    var body: some View {
+        VStack {
+            if active {
+                ZStack {
+                    RecorderEffectButton()
+                    button(imageName: "stop.circle.fill")
+                }
+            } else {
+                button(imageName: "mic.circle.fill")
+            }
+        }
+    }
+}
+
 struct RecorderButton_Previews: PreviewProvider {
     static var previews: some View {
         RecorderButton()
