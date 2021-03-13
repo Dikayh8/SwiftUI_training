@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BE858125C6AC5800F63AD1 /* ChronoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE858025C6AC5800F63AD1 /* ChronoAppApp.swift */; };
+		13BE858325C6AC5800F63AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE858225C6AC5800F63AD1 /* ContentView.swift */; };
+		13BE858525C6AC9000F63AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BE858425C6AC9000F63AD1 /* Assets.xcassets */; };
+		13BE858825C6AC9000F63AD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BE858725C6AC9000F63AD1 /* Preview Assets.xcassets */; };
+		13BE859125C6AEC200F63AD1 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE859025C6AEC200F63AD1 /* StopWatchManager.swift */; };
+		13BE859425C6BD4200F63AD1 /* Timers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE859325C6BD4200F63AD1 /* Timers.swift */; };
+		13BE859725C6BF5E00F63AD1 /* Aide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE859625C6BF5E00F63AD1 /* Aide.swift */; };
+		13BE859C25C6C29100F63AD1 /* MinuteurManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE859B25C6C29100F63AD1 /* MinuteurManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13BE857D25C6AC5800F63AD1 /* ChronoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChronoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BE858025C6AC5800F63AD1 /* ChronoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoAppApp.swift; sourceTree = "<group>"; };
+		13BE858225C6AC5800F63AD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13BE858425C6AC9000F63AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13BE858725C6AC9000F63AD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13BE858925C6AC9000F63AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BE859025C6AEC200F63AD1 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
+		13BE859325C6BD4200F63AD1 /* Timers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timers.swift; sourceTree = "<group>"; };
+		13BE859625C6BF5E00F63AD1 /* Aide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aide.swift; sourceTree = "<group>"; };
+		13BE859B25C6C29100F63AD1 /* MinuteurManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteurManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BE857A25C6AC5800F63AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13BE857425C6AC5800F63AD1 = {
+			isa = PBXGroup;
+			children = (
+				13BE857F25C6AC5800F63AD1 /* ChronoApp */,
+				13BE857E25C6AC5800F63AD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13BE857E25C6AC5800F63AD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13BE857D25C6AC5800F63AD1 /* ChronoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13BE857F25C6AC5800F63AD1 /* ChronoApp */ = {
+			isa = PBXGroup;
+			children = (
+				13BE858225C6AC5800F63AD1 /* ContentView.swift */,
+				13BE859025C6AEC200F63AD1 /* StopWatchManager.swift */,
+				13BE858025C6AC5800F63AD1 /* ChronoAppApp.swift */,
+				13BE859325C6BD4200F63AD1 /* Timers.swift */,
+				13BE859B25C6C29100F63AD1 /* MinuteurManager.swift */,
+				13BE859625C6BF5E00F63AD1 /* Aide.swift */,
+				13BE858425C6AC9000F63AD1 /* Assets.xcassets */,
+				13BE858925C6AC9000F63AD1 /* Info.plist */,
+				13BE858625C6AC9000F63AD1 /* Preview Content */,
+			);
+			path = ChronoApp;
+			sourceTree = "<group>";
+		};
+		13BE858625C6AC9000F63AD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13BE858725C6AC9000F63AD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13BE857C25C6AC5800F63AD1 /* ChronoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BE858C25C6AC9000F63AD1 /* Build configuration list for PBXNativeTarget "ChronoApp" */;
+			buildPhases = (
+				13BE857925C6AC5800F63AD1 /* Sources */,
+				13BE857A25C6AC5800F63AD1 /* Frameworks */,
+				13BE857B25C6AC5800F63AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChronoApp;
+			productName = ChronoApp;
+			productReference = 13BE857D25C6AC5800F63AD1 /* ChronoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13BE857525C6AC5800F63AD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					13BE857C25C6AC5800F63AD1 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 13BE857825C6AC5800F63AD1 /* Build configuration list for PBXProject "ChronoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13BE857425C6AC5800F63AD1;
+			productRefGroup = 13BE857E25C6AC5800F63AD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13BE857C25C6AC5800F63AD1 /* ChronoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BE857B25C6AC5800F63AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BE858825C6AC9000F63AD1 /* Preview Assets.xcassets in Resources */,
+				13BE858525C6AC9000F63AD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13BE857925C6AC5800F63AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BE858325C6AC5800F63AD1 /* ContentView.swift in Sources */,
+				13BE859125C6AEC200F63AD1 /* StopWatchManager.swift in Sources */,
+				13BE859C25C6C29100F63AD1 /* MinuteurManager.swift in Sources */,
+				13BE859725C6BF5E00F63AD1 /* Aide.swift in Sources */,
+				13BE858125C6AC5800F63AD1 /* ChronoAppApp.swift in Sources */,
+				13BE859425C6BD4200F63AD1 /* Timers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13BE858A25C6AC9000F63AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13BE858B25C6AC9000F63AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13BE858D25C6AC9000F63AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChronoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8683PB3PNR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChronoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iJoe.ChronoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13BE858E25C6AC9000F63AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChronoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8683PB3PNR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChronoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iJoe.ChronoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BE857825C6AC5800F63AD1 /* Build configuration list for PBXProject "ChronoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BE858A25C6AC9000F63AD1 /* Debug */,
+				13BE858B25C6AC9000F63AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BE858C25C6AC9000F63AD1 /* Build configuration list for PBXNativeTarget "ChronoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BE858D25C6AC9000F63AD1 /* Debug */,
+				13BE858E25C6AC9000F63AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13BE857525C6AC5800F63AD1 /* Project object */;
+}
